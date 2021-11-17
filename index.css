@@ -6,10 +6,6 @@ body {
     margin: 0;
   }
 
-  .dark-mode {
-    background-color: #282a36;
-    color: white;
-  }  
   a,
   a:hover,
   a:active,
