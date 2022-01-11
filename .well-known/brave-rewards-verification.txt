@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: nvdjen.github.io
+Token: 591c13d43431609f325ca06cbc10462f989bbdca8f24ecea724611a4517f080d
