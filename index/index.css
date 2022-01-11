@@ -1,0 +1,17 @@
+body {
+    font-family: Calibri;
+    font-size: 110%;
+    background-color: white;
+    color: black;
+    margin: 0;
+  }
+
+  a,
+  a:hover,
+  a:active,
+  a:visited,
+  a:focus {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
