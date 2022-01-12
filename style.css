@@ -85,8 +85,8 @@ ul li a:hover::after {
   right: 0;
   top: 0;
   bottom: 0;
-  width: 500vw;
-  height: 500vw;
+  width: 300vw;
+  height: 300vw;
   border-radius: 50%;
   background-color: #282a36;
   transition: 0.4s linear;
