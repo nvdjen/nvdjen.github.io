@@ -4,7 +4,6 @@ body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
-  overflow: hidden;
 }
 
 * {
@@ -50,6 +49,11 @@ body {
   line-height: 56px;
   font-weight: 700;
   margin: 0 0 20px;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .home .home-text p {
@@ -64,6 +68,11 @@ body {
   display: inline-block;
   line-height: 46px;
   display: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .home .home-text p span.text-in {
