@@ -1,7 +1,27 @@
-let modeToggle = document.querySelector(".mode-tog");
-let darkMode = document.querySelector(".dark-mode");
+const txts = document.querySelector(".animate-text").children,
+  txtsLen = txts.length;
+let index = 0;
+const textInTimer = 2000,
+  textOutTimer = 1800;
 
-modeToggle.addEventListener("click", () => {
-  darkMode.classList.toggle("active");
-  modeToggle.classList.toggle("active");
-});
+function animateText() {
+  for (let i = 0; i < txtsLen; i++) {
+    txts[i].classList.remove("text-in", "text-out");
+  }
+  txts[index].classList.add("text-in");
+
+  setTimeout(function () {
+    txts[index].classList.add("text-out");
+  }, textOutTimer);
+
+  setTimeout(function () {
+    if (index == txtsLen - 1) {
+      index = 0;
+    } else {
+      index++;
+    }
+    animateText();
+  }, textInTimer);
+}
+
+window.onload = animateText;
