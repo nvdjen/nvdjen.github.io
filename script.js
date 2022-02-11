@@ -1,8 +1,8 @@
 const txts = document.querySelector(".animate-text").children,
   txtsLen = txts.length;
 let index = 0;
-const textInTimer = 2000,
-  textOutTimer = 1800;
+const textInTimer = 4000,
+  textOutTimer = 3800;
 
 function animateText() {
   for (let i = 0; i < txtsLen; i++) {
