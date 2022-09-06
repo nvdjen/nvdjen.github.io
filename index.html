@@ -10,6 +10,13 @@
     <link rel="shortcut icon" type="image/x-icon" href="icon.png" />
     <link rel="stylesheet" href="style.css" />
     <script src="/script.js" defer></script>
+    <style>
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+    </style>
   </head>
   <body>
     <section class="home">
@@ -25,5 +32,20 @@
         </div>
       </div>
     </section>
+    <div class="footer">
+      <!-- Note to anyone copying the HTML for the following counter: 
+the counter name ("username" on this page) must be unique.
+Otherwise different pages will increment the same counter. See
+http://stuff.mit.edu/doc/counter-howto.html. -->
+
+This page has been accessed at least
+<a href="http://stuff.mit.edu/doc/counter-howto.html"><img 
+src="http://stuff.mit.edu/cgi/counter/nvdjenzz" alt="several"></a>
+times since the counter was last reset, 
+<!-- shouldn't happen, but include the disclaimer anyway -->
+or January 29, 1996, 
+<!-- when the counter with this name was first used --> 
+whichever is more recent.
+    </div>
   </body>
 </html>
